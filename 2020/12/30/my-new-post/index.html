@@ -11,15 +11,15 @@
     
 
     
-    <meta name="description" content="# d  Efdafdas $fda$">
+    <meta name="description" content="# d  ## Efdafdas $fda$">
 <meta property="og:type" content="article">
 <meta property="og:title" content="my new post">
 <meta property="og:url" content="http://example.com/2020/12/30/my-new-post/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="# d  Efdafdas $fda$">
+<meta property="og:description" content="# d  ## Efdafdas $fda$">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-12-30T08:44:39.000Z">
-<meta property="article:modified_time" content="2020-12-31T05:06:39.675Z">
+<meta property="article:modified_time" content="2020-12-31T05:56:45.289Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 
@@ -36,7 +36,9 @@
     
 <link rel="stylesheet" href="/css/style.css">
 
-<meta name="generator" content="Hexo 5.3.0"></head>
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.3.0"></head>
 
   <body>
     <header>
@@ -104,7 +106,7 @@
 		</div>
 		
 		# d 
-Efdafdas
+## Efdafdas
 $fda$
 
   
@@ -432,6 +434,35 @@ var _hmt = _hmt || [];
 
 <!-- MathJax Begin -->
 <!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 
 
 <!-- MathJax End -->
